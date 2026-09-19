@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "./fonts/fonts.css";
+
+@theme {
+    --font-main: "Raleway", sans-serif;
+}

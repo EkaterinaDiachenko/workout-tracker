@@ -2,5 +2,15 @@
 @import "./fonts/fonts.css";
 
 @theme {
-    --font-main: "Raleway", sans-serif;
+  --font-main: "Raleway", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
 }

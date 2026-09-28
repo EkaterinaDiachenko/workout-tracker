@@ -1,9 +1,13 @@
+type TExercise = {
+  title: string;
+  src: string;
+};
 
-export function Exercise() {
-    return (
-        <div className="flex items-center gap-3">
-            <img src="" width={50} height={50} alt="Описание изображения" />
-            <h3 className="text-2xl">Название упражнения</h3>
-        </div>
-    )
+export function Exercise({ title, src }: TExercise) {
+  return (
+    <div className="flex items-center gap-3">
+      <img src={src} width={200} alt="Описание изображения" />
+      <h3>{title}</h3>
+    </div>
+  );
 }

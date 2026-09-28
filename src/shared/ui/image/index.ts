@@ -1,1 +1,1 @@
-export { Image } from "@shared/ui/image/image";
+export { Image } from "./image.tsx";

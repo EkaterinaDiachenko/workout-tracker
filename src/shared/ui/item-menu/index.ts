@@ -1,1 +1,1 @@
-import { ItemMenu } from "@shared/ui/item-menu/item-menu";
+export { ItemMenu } from "./item-menu.tsx";

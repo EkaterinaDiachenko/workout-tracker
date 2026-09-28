@@ -1,1 +1,1 @@
-export { Icon } from "@shared/ui/icon/icon";
+export { Icon } from "./icon.tsx";

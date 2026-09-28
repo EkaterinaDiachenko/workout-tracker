@@ -3,6 +3,7 @@
 
 @theme {
   --font-main: "Raleway", sans-serif;
+  --color-primary: rgb(41, 74, 57);
 }
 
 html {

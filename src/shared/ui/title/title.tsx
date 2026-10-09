@@ -1,8 +1,8 @@
-type TText = {
+type TTitle = {
     title: string;
 }
 
-export function Text({ title }: TText) {
+export function Title({ title }: TTitle) {
     return (
         <p>{title}</p>
     )

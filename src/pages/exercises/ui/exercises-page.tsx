@@ -6,31 +6,44 @@ import romanianThrust from "@shared/assets/exercises-image/romanian-thrust.jpeg"
 
 export function ExercisesPage() {
   return (
-    <div className="grid grid-cols-2 gap-6">
-      <Exercise src={glutealBridge} title="Ягодичный мост" />
-      <Exercise src={bulgarianSplitSquats} title="Болгарские выпады" />
-      <Exercise src={barbellSquats} title="Присед" />
-      <Exercise src={romanianThrust} title="Румынская тяга" />
-      <Exercise src={glutealBridge} title="Ягодичный мост" />
-      <Exercise src={bulgarianSplitSquats} title="Болгарские выпады" />
-      <Exercise src={barbellSquats} title="Присед" />
-      <Exercise src={romanianThrust} title="Румынская тяга" />
-      <Exercise src={glutealBridge} title="Ягодичный мост" />
-      <Exercise src={bulgarianSplitSquats} title="Болгарские выпады" />
-      <Exercise src={barbellSquats} title="Присед" />
-      <Exercise src={romanianThrust} title="Румынская тяга" />
-      <Exercise src={glutealBridge} title="Ягодичный мост" />
-      <Exercise src={bulgarianSplitSquats} title="Болгарские выпады" />
-      <Exercise src={barbellSquats} title="Присед" />
-      <Exercise src={romanianThrust} title="Румынская тяга" />
-      <Exercise src={glutealBridge} title="Ягодичный мост" />
-      <Exercise src={bulgarianSplitSquats} title="Болгарские выпады" />
-      <Exercise src={barbellSquats} title="Присед" />
-      <Exercise src={romanianThrust} title="Румынская тяга" />
-      <Exercise src={glutealBridge} title="Ягодичный мост" />
-      <Exercise src={bulgarianSplitSquats} title="Болгарские выпады" />
-      <Exercise src={barbellSquats} title="Присед" />
-      <Exercise src={romanianThrust} title="Румынская тяга" />
-    </div>
+    <ul className="grid grid-cols-2 gap-6">
+      <li>
+        <Exercise src={glutealBridge} title="Ягодичный мост" />
+      </li>
+      <li>
+        <Exercise src={bulgarianSplitSquats} title="Болгарские выпады" />
+      </li>
+      <li>
+        <Exercise src={barbellSquats} title="Присед" />
+      </li>
+      <li>
+        <Exercise src={romanianThrust} title="Румынская тяга" />
+      </li>
+      <li>
+        <Exercise src={glutealBridge} title="Ягодичный мост" />
+      </li>
+      <li>
+        <Exercise src={bulgarianSplitSquats} title="Болгарские выпады" />
+      </li>
+      <li>
+        <Exercise src={barbellSquats} title="Присед" />
+      </li>
+      <li>
+        <Exercise src={romanianThrust} title="Румынская тяга" />
+      </li>
+      <li>
+        <Exercise src={glutealBridge} title="Ягодичный мост" />
+      </li>
+      <li>
+        <Exercise src={bulgarianSplitSquats} title="Болгарские выпады" />
+      </li>
+      <li>
+        <Exercise src={barbellSquats} title="Присед" />
+      </li>
+      <li>
+        <Exercise src={romanianThrust} title="Румынская тяга" />
+      </li>
+
+    </ul>
   );
 }
